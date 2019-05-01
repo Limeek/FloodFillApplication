@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flood Fill App</string>
+    <string name="toast_wait_fill">Подождите окончания заливки текущего участка</string>
+    <string name="btn_generate">Генерация</string>
+    <string name="btn_size">Размер</string>
+    <string name="dialog_size">Размер (max. 256 x 256)</string>
+    <string name="X">X</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="error_max_256">Максимальный размер 256х256</string>
+    <string name="error_less_or_equal_zero">Размер меньше нуля</string>
+    <string name="speed">Скорость</string>
+</resources>
