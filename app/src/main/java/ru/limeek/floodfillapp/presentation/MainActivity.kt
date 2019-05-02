@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
         if(resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT)
             binding.btnSize!!.setOnClickListener{openSizeDialog()}
         else{
-            binding.etHeight!!.setText(viewModel.bitmapSize.first.toString())
-            binding.etWidth!!.setText(viewModel.bitmapSize.second.toString())
+            binding.etHeight!!.setText(viewModel.bitmapSize.second.toString())
+            binding.etWidth!!.setText(viewModel.bitmapSize.first.toString())
             binding.etHeight!!.addTextChangedListener(heightTextWatcher)
             binding.etWidth!!.addTextChangedListener(widthTextWatcher)
         }
